@@ -1,5 +1,5 @@
 const request = require('request');
-const nextISSTimesForMyLocation = function(callback) {
+const nextISSTimesForMyLocation = function (callback) {
   request('https://api.ipify.org?format=json', (error, response, body) => {
 
     if (error) {
